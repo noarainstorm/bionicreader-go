@@ -10,7 +10,7 @@ import (
 func start() {
 	tk := new(bionic)
 	rootCmd := &cobra.Command{
-		Use:   "bionical",
+		Use:   "bionicread-go",
 		Short: "Utility to make bionic text",
 		Run: func(cmd *cobra.Command, args []string) {
 			if len(args) < 1 {
