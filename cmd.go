@@ -17,7 +17,7 @@ func start() {
 				log.Fatal("To few arguments...")
 			}
 			for _, em := range args {
-				tk.get(em)
+				tk.getBionic(em)
 				fmt.Println(tk.Out)
 			}
 		},
