@@ -1,4 +1,4 @@
-module bionical
+module github.com/noarainstorm/bionicreader-go
 
 go 1.18
 
